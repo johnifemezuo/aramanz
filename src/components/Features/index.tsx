@@ -29,7 +29,7 @@ const Features = () => {
 
             <div className="wow fadeInUp" data-wow-delay=".15s">
               <h3 className="mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-              You found yourself lost in a maze of conflicting advice, unproven tactics, and short-term "hacks."
+              You found yourself lost in a maze of conflicting advice, unproven tactics, and short-term &quot;hacks.&quot;
               </h3>
               <p className="pr-[10px] text-base font-medium leading-relaxed text-body-color">
               Navigating the world of online business felt like piecing together a puzzle with missing pieces. You yearned for a clear roadmap, a comprehensive system that would guide you from the initial spark of an idea to building a thriving online empire.
