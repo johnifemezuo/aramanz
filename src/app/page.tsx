@@ -23,7 +23,7 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Online Business OS | Ara Manz",
-  description: "This is Home for Startup Nextjs Template",
+  description: "",
   // other metadata
 };
 

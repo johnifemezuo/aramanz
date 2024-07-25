@@ -40,7 +40,7 @@ export const CompareTable = () => {
 
           <div className="space-y-4">
             <h2 className="font-semibold lg:text-3xl">
-              Who IS A Good Fit For Online Business OS?
+            Who IS NOT A Good Fit For Online Business OS?
             </h2>
             <div className="text-sm text-zinc-700 dark:text-zinc-300 md:text-lg">
               <p className="py-4 border px-3 border-zinc-300 dark:border-zinc-600">
