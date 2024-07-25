@@ -11,13 +11,13 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Invest One Time, Reap Lifetime Benefits"
+          paragraph="Select Your Bundle"
           center
           width="665px"
         />
 
-        <div className="w-full">
+        {/* <div className="w-full">
           <div className="mb-8 flex justify-center md:mb-12 lg:mb-16">
             <span
               onClick={() => setIsMonthly(true)}
@@ -55,47 +55,67 @@ const Pricing = () => {
               Yearly
             </span>
           </div>
-        </div>
+        </div> */}
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "40" : "120"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="STARTUP"
+            price="97"
+            duration={""}
+            subtitle="2 hours of high-value actionable program."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Module 1: Customer-First" status="active" />
+            <OfferList text="Module 2: Your Founder Context" status="active" />
+            <OfferList
+              text="Module 3: Discover Profitable Ideas"
+              status="active"
+            />
+            <OfferList text="Module 4: Fast-Track Validation" status="active" />
+            <OfferList
+              text="Module 5: The Art of Pricing
+"
+              status="inactive"
+            />
+            <div className="bg-blue-800/20  p-3 ">
+            Bonus 1: The Business Idea Scorecard 
+            </div>
           </PricingBox>
+
+          <div>
+          <div className=" bg-yellow lg:text-3xl font-semibold top-0 text-black py-4 w-full text-center">Best Value</div>
+
           <PricingBox
-            packageName="Basic"
-            price={isMonthly ? "399" : "789"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="Growth"
+            price="147"
+            duration=""
+            subtitle="3,5 hours of high-value actionable program."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Module 1: Customer-First" status="active" />
+            <OfferList text="Module 2: Your Founder Context" status="active" />
+            <OfferList text="Module 3: Discover Profitable Ideas" status="active" />
+            <OfferList text="Module 4: Fast-Track Validation" status="active" />
+            <OfferList text="Module 5: The Art of Pricing" status="active" />
+            <OfferList text="Module 6: Sales Mastery - Coming soon" status="inactive" />
+            <OfferList text="Module 7: Scale Your Business - Coming soon" status="active" />
+
+            <div className="bg-blue-800/20  p-3 ">
+            Bonus 1: The Business Idea Scorecard <br/>
+              Bonus 2: The Easiest Business Plan Ever <br/>
+              Bonus 3: Revealed Upon Purchase - Coming soon 
+            </div>
           </PricingBox>
+          </div>
+
+
           <PricingBox
             packageName="Plus"
-            price={isMonthly ? "589" : "999"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            price="897"
+            duration=""
+            subtitle="Limited Seats Available"
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="2 hours of One-on-One Call" status="active" />
+            <OfferList text="Full Course Access" status="active" />
+            <OfferList text="All Bonus Materials" status="active" />
           </PricingBox>
         </div>
       </div>

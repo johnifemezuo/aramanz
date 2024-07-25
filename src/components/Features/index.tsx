@@ -12,9 +12,7 @@ const Features = () => {
           />
 
           <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
-            {/* {featuresData.map((feature) => (
-              <SingleFeature key={feature.id} feature={feature} />
-            ))} */}
+            
             <div className="wow fadeInUp" data-wow-delay=".15s">
               <h3 className="mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                 The internet opened doors to a new world of possibilities.

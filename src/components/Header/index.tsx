@@ -50,10 +50,11 @@ const Header = () => {
         <div className="relative -mx-4 flex items-center justify-between">
           <div className="w-60 max-w-full px-4 xl:mr-12">
             <Link
-              href="/"
+              href="https://www.aramanz.com/online-business-os"
               className={`header-logo block w-full ${
                 sticky ? "py-5 lg:py-2" : "py-8"
               } `}
+              target="_blank"
             >
               <h1 className="text-dark dark:hidden text-2xl lg:text-4xl font-bold">Aramanz</h1>
               <h1 className="hidden w-full text-2xl dark:block lg:text-4xl font-bold">Aramanz</h1>
@@ -149,7 +150,7 @@ const Header = () => {
             <div className="flex items-center justify-end pr-16 lg:pr-0">
              
               <Link
-                href="/signup"
+                href="#pricing"
                 className="ease-in-up hidden rounded-sm bg-primary px-8 py-3 text-base font-medium text-white shadow-btn transition duration-300 hover:bg-opacity-90 hover:shadow-btn-hover md:block md:px-9 lg:px-6 xl:px-9"
               >
                 Start Learning

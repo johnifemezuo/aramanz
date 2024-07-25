@@ -24,14 +24,14 @@ const AboutSectionTwo = () => {
           </div> */}
           <div className="w-full px-4 lg:w-full">
             <div className="mt-6 bg-primary/20 px-3 py-6 text-primary lg:mt-12">
-              <h4 className="text-center font-semibold lg:text-4xl">
+              <h4 className="text-center font-semibold lg:text-4xl text-2xl">
                 The Online Business OS will help you
               </h4>
             </div>
 
-            <div className="mt-8 max-w-full">
+            <div className="mt-8 max-w-full px-4 md:px-0">
               <div className="mb-9">
-                <h3 className="mb-4 space-x-3 text-xl  text-black dark:text-white sm:text-2xl lg:text-xl xl:text-xl">
+                <h3 className="mb-4 space-x-3   text-black dark:text-white sm:text-xl lg:text-xl xl:text-xl">
                   ✅{" "}
                   <span className="font-semibold">
                     Get Clear on Your Vision
@@ -44,7 +44,7 @@ const AboutSectionTwo = () => {
               </div>
 
               <div className="mb-9">
-                <h3 className="mb-4 space-x-3 text-xl  text-black dark:text-white sm:text-2xl lg:text-xl xl:text-xl">
+                <h3 className="mb-4 space-x-3   text-black dark:text-white sm:text-xl lg:text-xl xl:text-xl">
                   ✅{" "}
                   <span className="font-semibold">
                     Find Profitable Business Ideas
@@ -57,7 +57,7 @@ const AboutSectionTwo = () => {
               </div>
 
               <div className="mb-9">
-                <h3 className="mb-4 space-x-3 text-xl  text-black dark:text-white sm:text-2xl lg:text-xl xl:text-xl">
+                <h3 className="mb-4 space-x-3   text-black dark:text-white sm:text-xl lg:text-xl xl:text-xl">
                   ✅{" "}
                   <span className="font-semibold">
                     Validate Your Business Idea
@@ -70,7 +70,7 @@ const AboutSectionTwo = () => {
               </div>
 
               <div className="mb-9">
-                <h3 className="mb-4 space-x-3 text-xl  text-black dark:text-white sm:text-2xl lg:text-xl xl:text-xl">
+                <h3 className="mb-4 space-x-3   text-black dark:text-white sm:text-xl lg:text-xl xl:text-xl">
                   ✅{" "}
                   <span className="font-semibold">
                     Target The Right Customer
@@ -83,7 +83,7 @@ const AboutSectionTwo = () => {
               </div>
 
               <div className="mb-9">
-                <h3 className="mb-4 space-x-3 text-xl  text-black dark:text-white sm:text-2xl lg:text-xl xl:text-xl">
+                <h3 className="mb-4 space-x-3   text-black dark:text-white sm:text-xl lg:text-xl xl:text-xl">
                   ✅{" "}
                   <span className="font-semibold">
                     Craft an Irresistible Offer
@@ -96,7 +96,7 @@ const AboutSectionTwo = () => {
               </div>
 
               <div className="mb-9">
-                <h3 className="mb-4 space-x-3 text-xl  text-black dark:text-white sm:text-2xl lg:text-xl xl:text-xl">
+                <h3 className="mb-4 space-x-3   text-black dark:text-white sm:text-xl lg:text-xl xl:text-xl">
                   ✅ <span className="font-semibold">Scale Your Business</span>
                   <span className="text-zinc-000 dark:text-zinc-400">
                     using the power of social media and email marketing to

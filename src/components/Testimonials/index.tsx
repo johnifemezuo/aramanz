@@ -5,40 +5,40 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
+    name: "Adam Colman",
     designation: "Founder @TailGrids",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
+      "After years of working in the corporate world, I decided to transition into online consulting. But I wasn't sure where to start. The Online Business OS gave me the step-by-step guidance I needed to build my online consulting business from scratch. Thank you!",
+    image: "/images/testim-1.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
+    name: "Cristine Eva",
     designation: "Founder @UIdeck",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
+      "I always had ideas for an online course to teach my photography skills, but I didn't know how to bring them to life. Thanks to the Online Business OS, I got a step-by-step guide to turn my passion into a profitable online course. Now, I'm not just sharing my expertise; I'm also making a steady income doing what I love. Many thanks, Ara!",
+      image: "/images/testim-2.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
+    name: "Theo Brayan",
     designation: "Founder @Lineicons",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
+      "Before joining the Online Business OS, I was struggling to find clarity in my business ideas. This program not only guided me through the process of starting my own SaaS business but also saved me months of iteration to achieve product-market fit.THANKS",
+    image: "/images/testim-3.png",
     star: 5,
   },
 ];
 
 const Testimonials = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
+    <section id="testimonials" className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
           title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Reviews from Successful students of ours"
           center
         />
 
